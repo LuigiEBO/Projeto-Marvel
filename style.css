@@ -119,3 +119,30 @@ footer p {
   padding: 4rem;
   text-align: center;
 }
+
+@media (min-width: 700px) {
+  body {
+    max-width: 100%;
+  }
+  header .navigation button {
+  display: none;
+}
+  header .navigation ul {
+  display: flex;
+}
+ header .navigation li {
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 2rem;
+}
+header .navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+main {
+  max-width: 100%;
+}
+footer p {
+  margin-top: 12rem;
+}
+}
