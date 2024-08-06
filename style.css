@@ -94,3 +94,16 @@ main .movies img:hover{
   cursor: pointer;
   transform: scale(1.1);
 }
+main .series {
+  padding: 2rem;
+}
+main .series img {
+  width: 9rem;
+  border-radius: 0.8rem;
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+main .series img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
