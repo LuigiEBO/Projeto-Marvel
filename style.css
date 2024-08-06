@@ -21,6 +21,7 @@ header {
 }
 header .logo {
   max-width: 10rem;
+  max-height: 5rem;
   padding: 0.6rem;
 }
 header .navigation {
@@ -51,7 +52,25 @@ header .navigation img  {
 header .navigation.open img {
   display: flex;
   max-width: 3rem;
-  right: 0;
+  margin-left: 7rem;
+}
+header .navigation ul {
+  display: none;
+  border-radius: 0.8rem;
+}
+header .navigation.open ul {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+header .navigation.open li {
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 0.6rem;
+}
+header .navigation.open a {
+  text-decoration: none;
+  color: #fff;
 }
 main {
   max-width: 34rem;
@@ -70,4 +89,8 @@ main .movies img {
   border-radius: 0.8rem;
   margin-right: 0.4rem;
   margin-left: 0.4rem;
+}
+main .movies img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
