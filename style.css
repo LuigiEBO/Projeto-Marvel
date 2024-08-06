@@ -107,3 +107,15 @@ main .series img:hover{
   cursor: pointer;
   transform: scale(1.1);
 }
+main p {
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1rem;
+  text-align: justify;
+}
+footer p {
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 4rem;
+  text-align: center;
+}
