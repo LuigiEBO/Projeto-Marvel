@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  background-color: #282828;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  max-width: 36rem;
+  background: linear-gradient(100deg, #000, #ff0000);
+  background-size: 120% 120%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header .logo {
+  max-width: 10rem;
+  padding: 0.6rem;
+}
+header .navigation {
+  display: flex;
+  flex-direction: column;
+}
+header .navigation button {
+  max-width: 10rem;
+  border: none;
+  background: none;
+}
+header .navigation.open button {
+  display: none;
+  height: 0.1rem;
+  width: 0.1rem;
+}
+
+header button .line {
+  height: 0.5rem;
+  width: 3rem;
+  margin-top: 0.5rem;
+  background-color: #000;
+  border-radius: 0.6rem;
+}
+header .navigation img  {
+  display: none;
+}
+header .navigation.open img {
+  display: flex;
+  max-width: 3rem;
+  right: 0;
+}
+main {
+  max-width: 34rem;
+  justify-content: center;
+  margin: auto;
+}
+main h1 {
+  color: #fff;
+  text-align: center;
+}
+main .movies {
+  padding: 2rem;
+}
+main .movies img {
+  max-width: 9rem;
+  border-radius: 0.8rem;
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
